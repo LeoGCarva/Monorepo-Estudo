@@ -1,0 +1,21 @@
+{
+  "name": "@my-project/ui",
+  "private": true,
+  "version": "1.0.0",
+  "main": "./index.ts",
+  "types": "./index.d.ts",
+  "exports": {
+    ".": "./index.ts",
+    "./*": "./*"
+  },
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@types/react": "^19.3.0"
+  },
+  "peerDependencies": {
+    "react": "^19.2.8"
+  }
+}
